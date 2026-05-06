@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/agent", "dest": "/agent.html" },
+    { "src": "/form", "dest": "/form.html" },
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/", "dest": "/agent.html" }
+  ]
+}
